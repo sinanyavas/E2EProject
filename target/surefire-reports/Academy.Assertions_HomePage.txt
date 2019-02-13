@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: Academy.Assertions_HomePage
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 14.425 s <<< FAILURE! - in Academy.Assertions_HomePage
+basepageNavigation(Academy.Assertions_HomePage)  Time elapsed: 0.195 s  <<< FAILURE!
+java.lang.AssertionError: expected [Valentine's Day Gift Guide1] but found [Valentine's Day Gift Guide]
+	at Academy.Assertions_HomePage.basepageNavigation(Assertions_HomePage.java:40)
+

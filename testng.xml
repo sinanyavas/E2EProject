@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite">
+    <listeners>
+        <listener class-name="Academy.listeners"/>
+        <listener class-name="resources.ExtentReporterNG"/>
+    </listeners>
+    <test name="Assertion">
+            <classes>
+                <class name="Academy.AppTest"/>
+                <class name="Academy.Assertions_HomePage"/>
+            </classes>
+    </test>
+    <test name="Rest">
+        <classes>
+                <class name="Academy.DataProdiver_HomePage"/>
+                <class name="Academy.HomePage"/>
+                <class name="Academy.TagValidation_HomePage"/>
+            </classes>
+    </test>
+</suite>
